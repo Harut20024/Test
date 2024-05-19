@@ -1,0 +1,32 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 1% 14%;
+    margin-top: 3rem;
+    max-width: 100%; 
+}
+
+.post {
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* @media (max-width: 1200px) {
+    .post {
+        flex: 1 1 calc(50% - 20px);
+    }
+} */
+
+@media (max-width: 1200px) {
+    .post {
+        flex: 1 1 100%;
+    }
+}

@@ -1,0 +1,17 @@
+.hamburger-container {
+    display: none;
+    max-width: 100%; 
+}
+
+.hamburger-icon {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .hamburger-container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 1rem;
+    }
+}
